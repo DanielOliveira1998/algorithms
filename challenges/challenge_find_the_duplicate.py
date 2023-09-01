@@ -8,6 +8,6 @@ def find_duplicate(nums):
             return False
         if num in frequency:
             return num
-        else: frequency[num] = 1
+        else:
+            frequency[num] = 1
     return False
-
